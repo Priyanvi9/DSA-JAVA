@@ -1,0 +1,207 @@
+I cannot create a PDF file. However, I can provide you with a comprehensive FAANG-based DSA roadmap in text format, including topics, estimated timeframes for a novice, sources, and a mention of relevant LeetCode questions.
+
+I will structure the roadmap into different sections, starting from the basics and moving to advanced topics. For each topic, I will provide a brief description, an estimated time range for a beginner, and some suggested resources, and I will mention the types of LeetCode questions you should practice.
+
+This will be a detailed plan that you can follow to prepare for technical interviews at FAANG and other top-tier tech companies.
+
+To provide the most accurate and up-to-date information, I need to gather some current resources and best practices.
+
+FAANG DSA Roadmap in Java (Novice to Advanced)
+This roadmap is designed for a complete beginner who wants to master Data Structures and Algorithms (DSA) in Java for FAANG-level interviews. The journey is broken down into four phases, with each phase building upon the previous one. The timeline provided is an estimate for a dedicated novice and can vary based on individual learning pace and prior experience.
+
+Phase 1: Foundations (1-2 Weeks)
+This phase is about establishing a strong foundation in Java and the core concepts of computer science. You won't be solving complex problems yet, but you'll be preparing your tools.
+
+Topic 1: Java Fundamentals (3-5 Days)
+
+Description: Master the basics of Java. This includes data types, variables, operators, conditional statements, loops, and Object-Oriented Programming (OOP) concepts like classes, objects, inheritance, polymorphism, and interfaces.
+
+Sources:
+
+Book: Head First Java (for a fun and visual approach) or Effective Java by Joshua Bloch (for a deeper dive).
+
+Online Course: GeeksforGeeks, Codecademy, or a Java crash course on YouTube.
+
+Practice: Write small programs to solve basic problems like calculating factorial, reversing a string, or checking for a palindrome.
+
+Topic 2: Time and Space Complexity (2-3 Days)
+
+Description: Learn how to analyze the efficiency of your code using Big O, Big Omega, and Big Theta notation. This is a fundamental skill that will be tested in every interview.
+
+Sources:
+
+GeeksforGeeks articles on Big O notation.
+
+YouTube videos by freeCodeCamp or Abdul Bari.
+
+Check-point: Be able to calculate the time and space complexity of simple algorithms like linear search, nested loops, and a basic recursive function.
+
+Phase 2: Core Data Structures & Algorithms (4-8 Weeks)
+This is the most critical phase where you'll learn the essential DSA topics. The goal is not just to know what these are, but to be able to implement them from scratch and understand their trade-offs.
+
+Topic 1: Arrays & Strings (1-2 Weeks)
+
+Description: Master one-dimensional and two-dimensional arrays. Learn how to perform operations like searching, sorting, and manipulation. For strings, understand immutability, common methods, and problems involving substrings and characters.
+
+Sources:
+
+Tutorials: GeeksforGeeks, HackerRank "Arrays" and "Strings" sections.
+
+LeetCode Questions:
+
+Arrays: Two Sum, Best Time to Buy and Sell Stock, Contains Duplicate, Product of Array Except Self, Maximum Subarray, Find Minimum in Rotated Sorted Array.
+
+Strings: Valid Anagram, Longest Substring Without Repeating Characters, Valid Parentheses, Palindromic Substrings.
+
+Topic 2: Linked Lists (1-1.5 Weeks)
+
+Description: Understand singly, doubly, and circular linked lists. Learn operations like insertion, deletion, reversal, and finding the middle of a list.
+
+Sources:
+
+Tutorials: GeeksforGeeks, LeetCode "Linked List" section.
+
+LeetCode Questions: Reverse a Linked List, Merge Two Sorted Lists, Detect Cycle in a Linked List, Remove Nth Node From End of List.
+
+Topic 3: Stacks & Queues (1-1.5 Weeks)
+
+Description: These are linear data structures with specific access patterns (LIFO for stacks, FIFO for queues). Learn their implementations (using arrays or linked lists) and common applications.
+
+Sources:
+
+Tutorials: GeeksforGeeks, "Stack" and "Queue" on LeetCode.
+
+LeetCode Questions:
+
+Stacks: Valid Parentheses, Daily Temperatures, Min Stack.
+
+Queues: Implement Queue using Stacks, Moving Average from Data Stream.
+
+Topic 4: Hashing (1 Week)
+
+Description: Learn about hash functions, hash tables (HashMap, HashSet in Java), collision resolution techniques, and their use in solving problems efficiently.
+
+Sources:
+
+Tutorials: GeeksforGeeks, Hash Table explanations.
+
+LeetCode Questions: Two Sum, Group Anagrams, Longest Consecutive Sequence.
+
+Topic 5: Trees (1.5-2 Weeks)
+
+Description: Start with the basics of tree data structures, focusing on Binary Trees. Understand various traversals (Inorder, Preorder, Postorder, Level-order) and their iterative and recursive implementations. Then move on to Binary Search Trees (BSTs) and their properties.
+
+Sources:
+
+Tutorials: GeeksforGeeks, LeetCode "Tree" section.
+
+LeetCode Questions:
+
+Binary Trees: Invert Binary Tree, Maximum Depth of Binary Tree, Binary Tree Level Order Traversal, Same Tree.
+
+BST: Validate Binary Search Tree, Kth Smallest Element in a BST, Lowest Common Ancestor of a BST.
+
+Topic 6: Heaps (1 Week)
+
+Description: Learn about Binary Heaps (min-heap and max-heap). Understand how to implement a heap and its applications in problems involving priority queues.
+
+Sources:
+
+Tutorials: GeeksforGeeks, "Heaps" section on LeetCode.
+
+LeetCode Questions: Kth Largest Element in an Array, Find Median from Data Stream, Merge k Sorted Lists.
+
+Phase 3: Intermediate to Advanced Algorithms (6-12 Weeks)
+This phase focuses on more complex algorithms and problem-solving patterns. This is where you'll start tackling the harder problems frequently asked in FAANG interviews.
+
+Topic 1: Recursion & Backtracking (1-2 Weeks)
+
+Description: Deepen your understanding of recursion. Learn backtracking, which is a powerful algorithmic technique for solving problems by trying to build a solution incrementally and "backtracking" if the current path is not viable.
+
+Sources:
+
+Tutorials: GeeksforGeeks, Backtracking algorithm articles.
+
+LeetCode Questions: Subsets, Permutations, Combination Sum, N-Queens.
+
+Topic 2: Greedy Algorithms (1 Week)
+
+Description: Learn to identify problems where making a locally optimal choice at each step leads to a globally optimal solution.
+
+Sources:
+
+Tutorials: GeeksforGeeks, Greedy algorithm explanations.
+
+LeetCode Questions: Jump Game, Coin Change (Greedy approach vs. DP), Activity Selection Problem.
+
+Topic 3: Graphs (2-4 Weeks)
+
+Description: A crucial topic for FAANG interviews. Understand graph representations (adjacency matrix, adjacency list), and master traversal algorithms like Breadth-First Search (BFS) and Depth-First Search (DFS). Then move to more advanced algorithms.
+
+Sources:
+
+Tutorials: GeeksforGeeks, Coursera's "Algorithms, Part II" by Princeton University.
+
+Algorithms to Learn:
+
+Traversals: BFS, DFS.
+
+Shortest Path: Dijkstra's Algorithm, Bellman-Ford.
+
+Minimum Spanning Tree: Prim's and Kruskal's Algorithms.
+
+Topological Sort: For Directed Acyclic Graphs (DAGs).
+
+Cycle Detection: Using DFS and BFS.
+
+LeetCode Questions: Clone Graph, Number of Islands, Course Schedule, Word Ladder, Cheapest Flights Within K Stops.
+
+Topic 4: Dynamic Programming (3-5 Weeks)
+
+Description: The most challenging but rewarding topic. Learn the two main approaches: memoization (top-down) and tabulation (bottom-up). Practice identifying DP problems and solving them systematically.
+
+Sources:
+
+Tutorials: GeeksforGeeks, NeetCode's DP Playlist on YouTube.
+
+Book: Grokking Dynamic Programming Patterns for Coding Interviews.
+
+LeetCode Questions: Longest Common Subsequence, Climbing Stairs, House Robber, Coin Change, Edit Distance, Knapsack Problem.
+
+Topic 5: Bit Manipulation (1 Week)
+
+Description: Learn how to use bitwise operators (AND, OR, XOR, NOT, shifts) to solve problems efficiently. This is often a way to optimize a solution from a "Medium" to a "Hard" rating.
+
+Sources:
+
+Tutorials: GeeksforGeeks, "Bit Manipulation" section on LeetCode.
+
+LeetCode Questions: Single Number, Counting Bits, Power of Two.
+
+Phase 4: Interview Preparation and Practice (Ongoing)
+This phase is not about learning new topics but about solidifying your knowledge and building confidence.
+
+Practice with LeetCode: Use the "Blind 75" or "NeetCode 150" lists as a starting point. They cover the most common topics and patterns. Aim for 2-3 problems per day.
+
+Mock Interviews: Use platforms like Pramp or Interviewing.io to practice your communication skills and problem-solving under pressure.
+
+System Design (for Senior Roles): If you're a novice, this might not be your primary focus, but it's good to be aware of. For SDE-2 and above, system design is a core component.
+
+Sources:
+
+Book: Designing Data-Intensive Applications by Martin Kleppmann.
+
+Online Course: Grokking the System Design Interview.
+
+YouTube: Gaurav Sen, Tushar Roy.
+
+Check-points Throughout Your Journey
+End of Phase 1: You should be able to write basic Java programs and analyze the time complexity of simple loops and functions.
+
+End of Phase 2: You should be able to implement all core data structures (linked list, stack, queue, etc.) from scratch, solve "Easy" and some "Medium" LeetCode problems on these topics, and explain your approach and complexities.
+
+End of Phase 3: You should have a solid grasp of advanced algorithms like DP and Graphs. You should be comfortable solving "Medium" problems and have attempted a good number of "Hard" problems.
+
+Final Check: You should be able to articulate your thought process clearly, explain trade-offs between different solutions, and write clean, bug-free code within a time limit.
+
+This roadmap is a detailed guide, but remember that consistency and smart practice are more important than just following a schedule. Good luck!
