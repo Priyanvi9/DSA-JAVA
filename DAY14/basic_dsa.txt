@@ -1,11 +1,34 @@
 O - big o - computational complexity of an algorithm - splits into two parts - space complexity and time complexity
-time complexity- the amount of time taken the algorithm has taken to run relative to the input size
-space complexity- amount of memory used by the algorithm relative to the input size
+time complexity- the amount of time taken the algorithm has taken to run relative to the input size-as the input size grows, how much longer does the algorithm take to complete?
+space complexity- amount of memory used by the algorithm relative to the input size -as the input size grows, how much more memory does the algorithm use?
 
 
-Time complexity: as the input size grows, how much longer does the algorithm take to complete?
 
-Space complexity: as the input size grows, how much more memory does the algorithm use?
+-------------------------------TIME COMPLEXITY----------------------------------
+not the actual time but the amount of time taken as function of input size n - means input - increases/decreases ~ number of operations increases/decreases
+linear time complexity - graph of line - y = x => f(x) = x => O(n) 
+reason - compare kar sake do algorithm ki which is faster + better system build kar paye
+    How To calculate time complexity------
+    for eg  - f(x) = 4n^2 + n + 5
+    Ignore constants and constants as coefficient
+    Consider only larger term in terms of power in my case it is 4n^2
+    time complexity --- O(n^2)
+Big O - worst case(upper bound) - O means operation((for learning))
+worst case(upper bound) scenario - input n value much larger - O()
+average case scenario - theta
+best case scenario (lower bound) - omega
+WE HAVE TO KNOW ABOUT WORST CASE ONLY 
+
+
+
+-----------------------------SPACE COMPLEXITY-----------------------------------
+amount of space taken by an algorithm as function of input size n - input size increases/decreases ~ amount of space increases/decreases
+for eg , we have a array and we want to print the sum of all the elements of the array -- in this sum = 0 as n(size of array) increases no space is alloted there are constant values - space complexity - O(k) ~~ O(1)
+all complexities of time ---> refer to -- image.png
+
+
+
+
 
 
 
