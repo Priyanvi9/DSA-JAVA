@@ -1,0 +1,12 @@
+Sorting - arrange in an order - increasing/decreasing
+Bubble sort , Selection sort, Insertion sort, COUNTING SORT(advanced)
+
+
+
+1. BUBBLE sort - large elements come to the end of the array by swapping with adjacent elements - increasing order
+ex - arr[] = {5,4,1,3,2} size of array-> n
+swapping the adjacent elements by comparing and pushing at end
+        0th turn    4,5,1,3,2 - 4,1,5,3,2 - 4,1,3,5,2 - 4,1,3,2,5 -> 0 to n-2
+        1st turn    1,4,3,2,5 - 1,3,4,2,5 - 1,3,2,4,5 -> 0 to n-3
+        2nd turn    1,3,2,4,5 - 1,2,3,4,5 -> 0 to n-4
+        3rd turn    1,2,3,4,5 - WE"VE GOT FINAL ARRAY -> 0 to n-5 means at 0

@@ -1,0 +1,12 @@
+O - big o - computational complexity of an algorithm - splits into two parts - space complexity and time complexity
+time complexity- the amount of time taken the algorithm has taken to run relative to the input size
+space complexity- amount of memory used by the algorithm relative to the input size
+
+
+Time complexity: as the input size grows, how much longer does the algorithm take to complete?
+
+Space complexity: as the input size grows, how much more memory does the algorithm use?
+
+
+
+

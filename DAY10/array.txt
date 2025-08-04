@@ -1,0 +1,59 @@
+list of elements of the same type
+placed in a contiguous memory location
+dataType arrayName[] = new dataType[size]
+the size of the array at runtime is static
+no value initialised yet , at every index the value will be initialised with zero
+    int marks[] = new int[30]; 
+    int numbers[] = {1,2,3};
+    String fruits[] = {"apple", "mango", "orange"}
+length of an array - arrayName.length
+Array as arguments passed with reference
+
+linearSearch - finding elements one by one in the array 
+        time complexity directly proportional to loop, loop runs n times
+        time complexity of linearSearch is = O(n)
+        Integer.IntMIN = -infinity
+        Integer.IntMAX = +infinity
+Binary search - requires sorted array 
+        array size = n, n/2, n/4 .... array size becomes half
+        start=0 , end = n-1, mid = (start+end)/2
+        mid==key return key
+        mid>key search in first half(left side) -> end update -> mid- 1
+        mid<key search in second half(right side) -> start update -> mid + 1
+        mid ! = key = no key found - return -1/Not found whatever you want
+        Time complexity - n = 2 to the power k - k = log base2 n 
+            O(log n)
+        tc directly depends on log base 2 n
+        
+linear search takes more time as compared to binary search and vice versa
+Time complexity of maxSubArraySum = O(n^3)
+Time complexity of prefixArraySum = O(n^2)
+Kadane's Algorithm -> small(+ve) + large(-ve) gives large(-ve) no. rather than this use Zero.
+If all the elements of array is -ve then kadane's logic returns zero
+Time complexity -> O(n)
+
+#42 Hard level - Trapping Rainwater
+Given a non-negative integers representing an elevation map where the width of each bar is 1,compute how much water it can trap after raining
+height = [4,2,0,6,3,2,5]
+case 1 = single bar = no water trap
+case 2 = double bar = no water trap 
+case 3 = ascending/descending order bar = no water trap
+case 4 = min 3 bar is required for water trapping
+case 5 = more than 3 than find maxright/maxleft
+max of left and max of right and then minimum of those two = water level
+water level = min(maxleft,maxright)
+trapped water = (waterlevel - height)
+auxiliary array/helper array -> leftMaxBoundary =[4,4,4,6,6,6,6] -> RightMaxBoundary =[5,5,5,6,6,6]
+Time complexite - O(n)
+
+#121 Easy level - Best time to buy and sell stocks
+prices = [7,1,5,3,6,4]
+You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.Return the maximum profit you can achieve from this transaction. If you can't achieve any profit, return 0.
+buyprice = max/infinite -> Minimum of buyprice till that day in which i've to sell
+loop -> 
+case 1 --> cp<sp -> profit(sp-cp) -> cp updation ,,,,Max of profit - answer
+case 2 --> cp>sp -> cp (updation) = sp ,,,,,max of profit - answer
+case 3 --> no profit ,, returns zero
+Time complexity - O(n)
+
+ 

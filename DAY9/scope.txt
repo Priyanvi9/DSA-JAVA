@@ -1,0 +1,18 @@
+Method scope - 
+int sum(int a , int b){
+    int s = a+b;
+    ///
+    ///
+}
+main(){
+    we don't use variable s here - it's scope is only in Method/function
+}
+
+Block scope - 
+main(){
+    {
+        s = 34;
+        print(s)
+    }
+    print(s) // won't work because s is in block("{}") scope.
+}
