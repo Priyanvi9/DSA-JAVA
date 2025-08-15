@@ -1,0 +1,24 @@
+-----------------------------String methods-----------------------------
+
+string_name.charAt(index) - returns charachter at a given index within a string
+string_name.indexOf("char") - returns first index of the given charachter within a string
+string_name.length - returns lenght of the string including whitespaces
+string_name.lastIndexOf("char") - returns last index of the given charachter within a string
+string_name.toUpperCase() - returns the string with all capital letters
+string_name.toLowerCase() - returns the string with all small letters
+string_name.trim() - remove all the whitespaces from before and after the string
+string_name.replace("1","2") - replace 1 with 2 within a string
+string_name.isEmpty() - returns true if the string is empty, returns false if the string is not empty
+string_name.contains("") - returns true if whichever you write in quotes is present in the string and false if not
+string_name.equals("string_name_2") - it compare string_name is equal to string_name_2 and if it is returns true and if not returns false --- it is case sensitive
+string_name.equalsIgnoreCase() - to ignore case sensitivity use this method
+
+------------------------- Substring method -----------------------------
+
+.substring() is a method use to extract a portion of a string 
+string_name.substring(start index, end index) start index is inclusive and end index in exclusive 
+for eg - i want to separate username and domain name and flexible as the length of email vary from person to person use - 
+domain -> endindex = string_name.indexOf("@") + 1 
+username -> startindex = 0, endindex = string_name.indexof("@")
+
+

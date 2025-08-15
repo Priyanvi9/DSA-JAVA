@@ -10,9 +10,9 @@ public class sphere{
         double circum = 2*(Math.PI*radius);
         double area = Math.PI*(Math.pow(radius,2));
         double volume = (4*Math.PI*(Math.pow(radius,3)))/3;
-        System.out.println("The circumference is : " + circum + "cm");
-        System.out.println("The area is : " + area + "cm²");
-        System.out.println("The volume is : " + volume + "cm³");
+        System.out.printf("The circumference is : %.1fcm\n" , circum);
+        System.out.printf("The area is : %.1fcm²\n" ,area);
+        System.out.printf("The volume is : %.1fcm³\n" , volume);
         scanner.close();
     }
 }

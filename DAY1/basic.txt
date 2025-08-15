@@ -39,3 +39,16 @@ Math.ceil(3.14) = 4
 Math.floor(3.99) = 3
 Math.max(10,20) == 20
 Math.min(10,20) == 10
+
+
+if you want the answer should be upto two decimal places - use system.out.printf("string use %.1f" , value) -- for more info see sphere.java
+printf stmt gives output in one single line and instead of + use ,
+printf stmt used to format output - just like in c - use format specifiers like %d, %f, %c,%b(for bool), %s ,  %.1f(for one decimal places ) %.2f(for two decimal places)
+[flags]/[.precision]/[width]/[specific-charachter]
+%f - generally gives upto 6 decimal places
+if there is negative number then if you use %(.2f --it gives you a result in () enclosed parantheses
+, is grouping separator
+space - display a minus if negative , space if positive
+0 - zero padding - add zero means if you use %04d in a number 23 gives 0023 result , and if you use in a number 2 gives 0002 
+number - right justified padding means gives space
+negative number - left justified padding
