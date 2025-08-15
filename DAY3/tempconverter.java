@@ -14,14 +14,15 @@ public class tempconverter {
         if (choice.contains("c") || choice.contains("C")) {
             System.out.print("Enter the temperature(in Fahrenheit) : ");
             temp = scanner.nextDouble();
-
             ctemp = (temp - 32) * 5 / 9;
-            System.out.println(ctemp + "°C");
+            System.out.printf( "%.2f°C",ctemp);
+
         } else if (choice.contains("f") || choice.contains("F")) {
             System.out.print("Enter the temperature(in Celsius) : ");
             temp = scanner.nextDouble();
-            ctemp = (temp * 1.8) + 32;
-            System.out.println(ctemp + "°F");
+            ctemp = (temp * 5/9) + 32;
+            System.out.printf("%.2f°F",ctemp);
+
         } else {
             System.out.println("Enter valid choice.");
         }

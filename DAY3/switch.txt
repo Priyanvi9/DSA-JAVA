@@ -1,0 +1,21 @@
+switch - replacement of multiple else if stmts 
+switch(variable_name){
+    case condn-1 -> syso //if
+    case condn-2 -> syso //else if
+    case condn-n -> syso //else if
+    default -> syso      // else
+}
+
+or you can use this syntax as well but you have to use colon and break stmt in each case 
+switch(varible_name){
+    case condn-1 : syso break;
+    case condn-2 : syso break;
+    default : syso
+}
+enhanced switch - consolidated the case having same output by grouping them with comma separator
+switch(variable_name){
+    case condn-1 , condn-2 -> syso
+    case condn-3 , condn-4 -> syso
+    case condn -5 -> syso
+    default -> syso
+}

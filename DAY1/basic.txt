@@ -2,8 +2,9 @@ primitive variables - simple value stored in a memory (stack)
 reference variables - memory address (stack) that points to the (heap)
 primitive - int , double , char , boolean
 reference - string , array , object 
-next(), which reads only a single word or token delimited by whitespace
+next() - take string as input,next(), which reads only a single word or token delimited by whitespace
 nextLine() captures the entire line of text, including spaces and other characters.
+charAt(index) allow us to take only charachter input.
 nextInt() - takes int
 nextDouble() - takes floating till many times precision
 nextBoolean() - takes true/false as input
