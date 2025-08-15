@@ -19,8 +19,6 @@ average case scenario - theta
 best case scenario (lower bound) - omega
 WE HAVE TO KNOW ABOUT WORST CASE ONLY 
 
-
-
 -----------------------------SPACE COMPLEXITY-----------------------------------
 amount of space taken by an algorithm as function of input size n - input size increases/decreases ~ amount of space increases/decreases
 for eg , we have a array and we want to print the sum of all the elements of the array -- in this sum = 0 as n(size of array) increases no space is alloted there are constant values - space complexity - O(k) ~~ O(1)

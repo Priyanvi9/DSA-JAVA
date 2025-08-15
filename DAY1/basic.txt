@@ -1,0 +1,41 @@
+primitive variables - simple value stored in a memory (stack)
+reference variables - memory address (stack) that points to the (heap)
+primitive - int , double , char , boolean
+reference - string , array , object 
+next(), which reads only a single word or token delimited by whitespace
+nextLine() captures the entire line of text, including spaces and other characters.
+nextInt() - takes int
+nextDouble() - takes floating till many times precision
+nextBoolean() - takes true/false as input
+
+input buffer means - after taking int/double as input there is a \n then if you take string as input then \n goes to string and then this problem occur...so best practice is that use nextLine() method(sc.nextLine(); like this) after int as input/double and then string
+"cm²²" - to make superscript ..select the number/thing you want to superscript..on numlock....while holding alt key press 0178 - power 2 /0179 - power 3
+
+
+Order of operations - PEMDAS - parantheses, exponent, multiplication, division, addition, subtraction
+
+in if /else if - you can use boolean values as well
+for eg - isloggedin = true  if(isloggedin)
+
+
+random number -> Random random = new Random();
+ int n = random.nextInt();
+ range of n - -2 billion to =2 billion
+
+int n = random.nextInt(1,6)
+1 is inclusive bound 
+6 is exclusive bound means it is not included
+1,6 means it generate random numbers between 1 to 5(5 is there 6 will not be included)
+
+
+double b = random.nextDouble() - it generate random double number between 0 and 1 
+
+
+Math.pow(double a, double b) == a to the power be
+Math.abs(-a) == gives positive value means modulous
+Math.sqrt() == gives square root
+Math.round(3.14) == gives round off -- gives 3
+Math.ceil(3.14) = 4 
+Math.floor(3.99) = 3
+Math.max(10,20) == 20
+Math.min(10,20) == 10
