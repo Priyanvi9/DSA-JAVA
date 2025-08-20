@@ -1,0 +1,14 @@
+jre = jvm + libraries
+jdk + development tools => jre => jvm + libraries
+
+(source code).java -> compiler -> bytecode(.class) -> JVM -> native code w r to machine(linnux,mac,windows)
+
+JAva is portable language
+class name == filename
+public class MAIN{
+    public static void main(String[] args){
+        System.out.println("HELLO, WORLD!);
+    }
+}
+
+comments -> // single line /* multi line */

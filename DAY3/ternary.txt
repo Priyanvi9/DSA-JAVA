@@ -1,2 +1,4 @@
 variable = (condition) ? ifTrue : ifFalse; 
 cool way to write single if-else stmt
+syntax in java -> variable = condition ? statement_1 : statement_2
+when condition is true statement_1 will get executed if not then stmt_2

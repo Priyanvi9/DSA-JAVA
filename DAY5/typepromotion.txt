@@ -1,0 +1,5 @@
+1. Java automatically promotes each byte, short, char operand to int when evaluating an expression.
+2. If (largest possible operand)/one operand is long,float,double the whole expression is promoted to long , float, or double respectively
+
+
+byte/short/char -> int

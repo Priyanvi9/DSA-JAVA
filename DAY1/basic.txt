@@ -2,7 +2,7 @@ primitive variables - simple value stored in a memory (stack)
 reference variables - memory address (stack) that points to the (heap)
 primitive - int , double , char , boolean
 reference - string , array , object 
-next() - take string as input,next(), which reads only a single word or token delimited by whitespace
+next() - take string as input but only one word/which reads only a single word or token delimited by whitespace
 nextLine() captures the entire line of text, including spaces and other characters.
 charAt(index) allow us to take only charachter input.
 nextInt() - takes int
@@ -53,3 +53,9 @@ space - display a minus if negative , space if positive
 0 - zero padding - add zero means if you use %04d in a number 23 gives 0023 result , and if you use in a number 2 gives 0002 
 number - right justified padding means gives space
 negative number - left justified padding
+
+operators - 
+ Arithmetic(+,-,*,/,//,%,++,--), Unary operators (++,--)
+ Relational(==,!=,>,<,>=,<=), Relational operations ->(0 for false, 1 for true)
+ Logical(&&,||,!), 
+ Assignment(=,+=,-=,*=,/=)

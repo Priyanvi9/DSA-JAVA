@@ -1,0 +1,6 @@
+typecasting / narrowing conversion / explicit conversion
+
+float a = 34.08
+int b = a; // error
+
+int b = (int) a // no error typecasting occur
