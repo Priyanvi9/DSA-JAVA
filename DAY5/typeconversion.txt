@@ -1,3 +1,6 @@
+type conversion/implicit conversion/widening conversion
+
+
 conversion happens when -
 type compatible
 destination type> source type
