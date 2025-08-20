@@ -1,0 +1,15 @@
+conversion happens when -
+type compatible
+destination type> source type
+
+byte -> short -> int -> float -> long -> double
+vice versa not possible as destinationtype is not greater than source type
+
+
+int a = 25;
+long b = a; // correct int-> long
+
+int - 4 bytes long - 8 bytes
+
+long a = 25;
+int b = a ; // error incompatible type long->int //lossy conversion
