@@ -1,0 +1,37 @@
+LeetCode 209: Minimum Size Subarray Sum
+Ek positive integers ka array 'nums' aur ek 'target' sum diya hai.
+Humein us sabse chote (minimum length) CONTIGUOUS subarray ki length batani hai jiska sum 'target' ke barabar ya usse zyada ho.
+Agar aisa koi subarray nahi hai, to 0 return karna hai.
+
+Example: nums = [2,3,1,2,4,3], target = 7  --> Output: 2 (kyunki [4,3] sabse chota subarray hai jiska sum 7 hai)
+
+1.saare possible contiguous subarrays
+2.  use of two nested loops
+    - Outer loop starts from 'i' till  (0 to n-1).
+    - Inner loop starts from 'j'till (i to n-1).
+3.  Har (i, j) pair ke liye sum calculation
+4.  if sum >= target hai, then length (j - i + 1) ko minimum length se compare karke update karo.
+5.  Complexity: O(N^2) Time, O(1) Space. 
+
+Optimal Approach:
+PATTERN: Sliding Window
+YE KYUN USE KIYA? Kyunki problem "CONTIGUOUS SUBARRAY" aur "OPTIMAL VALUE (MINIMUM LENGTH)" ke baare mein hai. Ye Sliding Window ke liye ek classic hint hai.
+The core idea is to maintain a "window" (a subarray) that can expand and contract.
+Time Complexity: O(N)
+Space Complexity: O(1)
+
+Algorithm Steps
+1.  two ptrs, left = 0 & right = 0.
+2.  Variables banao: currentSum = 0 aur minLength = Infinity.
+3.  right pointer ko 0 se array ke end tak move karo (Window EXPAND hogi).
+    - Har step par, nums[right] ko currentSum mein add karo.
+4.  Jaise hi currentSum >= target ho jaye, ek while loop start karo (Window CONTRACT hogi).
+    - minLength ko update karo: minLength = min(minLength, current_window_length).
+    - Current window ki length hai: right - left + 1.
+    - currentSum se nums[left] ko minus karo.
+    - left pointer ko ek step aage badhao.
+5.  Ye while loop tab tak chalega jab tak currentSum >= target rehta hai. Isse hume us window ke andar sabse chota possible solution mil jayega.
+6.  Jab right pointer end tak pahunch jaye, loop khatm.
+7.  Finally, agar minLength abhi bhi Infinity hai, to iska matlab koi solution nahi mila, so return 0. Warna minLength return karo.
+
+

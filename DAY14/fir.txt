@@ -1,0 +1,14 @@
+writer - Slow(i) writes the next unique element, only moves after a unique value is confirmed
+
+reader - Fast(j) scans every element, moves constantly & looking for the next unique value
+
+algo:LC-26
+
+insertIndex = 1
+i(iterator) = 1
+comparing arr[i] != arr[i-1]
+if it is diff then arr[insertIndex] = arr[i]
+insertIndex++
+return insertIndex
+no duplicates
+
