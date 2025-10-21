@@ -1,0 +1,21 @@
+---------------------------- LC - 268 - EASY , Array,HashTable,Searching,Sorting -------------------------
+
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+input - [3,0,1]
+output - 2 ,n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+
+Logic - using array indices to sort the array, means the number x would be @index x 
+
+(A). Placing numbers @ correct index by using cyclic short
+   1. start ptr from i 0
+   2. look the number num @num[i] - the crct index for num is num itself
+   3. if num is a valid index(num<array.length) && it's not already in its correct spot(num!=nums[num]) then swap nums[i] with the number at its correct index nums[num]
+   4. if the number is already in its correct sopt or the number n which has no valid index, move to the next element by i++
+   5. repeat this until the whole array is traversed 
+   6. the array is almost sorted
+
+(B). Finding the mismatch
+   1.loop from o to end
+   2.check if nums[index] == index
+   3.the first index where this is false is MY MISSING NUMBER (ladla magh ke mele me khoya hua shrarti) , return that number
+   4.if while traversing we didn't find mismatch it means all no. are present therefore the missing number is n (the length of the array), return array.length

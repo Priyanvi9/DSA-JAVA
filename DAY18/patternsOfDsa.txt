@@ -1,0 +1,13 @@
+------------------------------------------ Patterns for Arrays & Strings ---------------------------------
+
+1.Prefix sum - ek prifx array banana jisme prefix[i] original array ke 0 se i tak ke elements ka sum ho . isse hum range ka sum O(1) me mil jayega
+2.Hashing(Hashset/Hashmap) - cheezo ko store krna taki unhe O(1) time me search,insert,delete kr ske , also for checking uniqueness, frequency , or have i seen this already or not
+3.Two pointers - do pointers ko use krke array ko ek hi pass me traverse krna , ye ptrs alg - alg direction se left/right aa skte hai , this needs sorted array
+4. Sliding window - ek window(subarray/substring) ko maintain krna jo ek condn satisfy krti ho, window ko right se expand krte hai aur left se shrink krte hai 
+5. Binary search - sorted array me kisi element ko O(log n) time me search krna , search space ko har step me half kr dete hain 
+6. Kadane's algorithm - maximum sub-array ko O(n) time me find krne ka ek dynamic programming approach hai , currentMx aur globalMx ko maintain krte hue traverse krna
+7. 2D arrays/matrix - rows / colmns wale grid pr operations, inme aksar nested loops ya patterns like spiral traversal use krn hota hai 
+8. Interval prblms - dealing with a list of intervals (start,end) , the key is often to sort the intervals by their start or end times and then iterate through them to merge , insert, or checks for overlaps - LC56,252 "can a person attend all meetings?"
+9. Cyclic short - a special patterns for prblms where the array contains no. in a specific range (1 to n) , you place each number at its correct index(index-1) its and in-place , O(n) technique - LC268,287 -"Find all missing/duplicates numbers"
+10. Sliding window with a counter - A more complex version of the sliding window where you use a hasmap as a frequency counter, you track the number of unique charachters needed to satisfy a condn -LC76
+
