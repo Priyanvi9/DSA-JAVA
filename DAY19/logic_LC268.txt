@@ -10,7 +10,7 @@ Logic - using array indices to sort the array, means the number x would be @inde
    1. start ptr from i 0
    2. look the number num @num[i] - the crct index for num is num itself
    3. if num is a valid index(num<array.length) && it's not already in its correct spot(num!=nums[num]) then swap nums[i] with the number at its correct index nums[num]
-   4. if the number is already in its correct sopt or the number n which has no valid index, move to the next element by i++
+   4. if the number is already in its correct sopt or the number n which has no valid index, move to the next element by i++ (priyanvi gupta)
    5. repeat this until the whole array is traversed 
    6. the array is almost sorted
 

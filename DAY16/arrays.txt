@@ -1,14 +1,18 @@
 till now all these question have been done 
 
-No.	Problem Name	                    Level	Topic name
-1	Two Sum	                            Easy	Array, Hash table
-121	Best Time to Buy and Sell Stock	    Easy	Array, Dynamic Programming
-42	Trapping Rainwater	                Hard	Array, Two Pointers, Stack
-15	3Sum	                            Medium	Array, Two Pointers, Sorting
-122	Best Time to Buy and Sell Stock II	Medium	Array, Greedy
-4	Median of Two Sorted Arrays	        Hard	Array, Binary Search
-217	Contains Duplicate	                Easy	Array, Hash table, Sorting
-26	Remove Duplicates from Sorted Array	Easy	Array, Two Pointers
-209	Minimum Size Subarray Sum	        Medium	Array, Sliding Window
-560	Subarray Sum Equals K	            Medium	Array, Prefix Sum, Hash Table
-128 Longest consecutive sequences       DONE
+No.	Problem Name	                                   Level	Topic name
+1	Two Sum	                                           Easy	    Array, Hash table
+121	Best Time to Buy and Sell Stock	                   Easy	    Array, Dynamic Programming
+42	Trapping Rainwater	                               Hard	    Array, Two Pointers, Stack
+15	3Sum	                                           Medium	Array, Two Pointers, Sorting
+122	Best Time to Buy and Sell Stock II	               Medium	Array, Greedy
+4	Median of Two Sorted Arrays	                       Hard	    Array, Binary Search
+217	Contains Duplicate	                               Easy	    Array, Hash table, Sorting
+26	Remove Duplicates from Sorted Array	               Easy	    Array, Two Pointers
+209	Minimum Size Subarray Sum	                       Medium	Array, Sliding Window
+560	Subarray Sum Equals K	                           Medium	Array, Prefix Sum, Hash Table
+128 Longest consecutive sequences                      Medium   Array, Hash table, Union find
+268 Missing number                                     Easy     Array, Hash table, Sorting
+287 Find the duplicate number                          Medium   Array, Two ptrs , Binary search
+3   Longest substring without repeating charachters    Medium   String,Hash table, Sliding window
+442 Finding all the missing number                     Medium   Array, Hash table
